@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.table th {
+    border-top: none;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+/* Custom colors */
+.bg-primary {
+    background-color: #4e73df !important;
+}
+
+.bg-success {
+    background-color: #1cc88a !important;
+}
+
+.bg-info {
+    background-color: #36b9cc !important;
+}
+
+.bg-warning {
+    background-color: #f6c23e !important;
+}
+
+.bg-danger {
+    background-color: #e74a3b !important;
+}
